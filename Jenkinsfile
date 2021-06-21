@@ -13,5 +13,11 @@ pipeline {
       }
     }
 
+    stage('deliver') {
+      steps {
+        input 'deliver Done'
+      }
+    }
+
   }
 }
